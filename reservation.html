@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Réservation d'Hôtel</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Belle cité de Sya</h1>
+        <img src="images/logo.jpeg" alt="Logo de la ville">
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="patrimoine.html">Patrimoine</a></li>
+                <li><a href="reservation.html">Réservation d'hôtel</a></li>
+                <li><a href="galerie.html">Galerie</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Réservez votre séjour</h2>
+        <form action="" method="POST">
+            <fieldset>
+                <label for="nom">Nom&Prenom:</label>
+                <input type="text" id="nom" name="nom" required><br>
+
+                <label for="perso">Nombre de personnes:</label>
+                <input type="text" id="perso" name="perso" required><br>
+
+                <label for="nuit">Nombre de nuits:</label>
+                <input type="text" id="nuit" name="nuit" required><br>
+
+                <label for="room">Type de chambre:</label>
+                <select>
+                    <option value="" selected>Simple</option>
+                    <option value="">Double</option>
+                    <option value="">Suite</option>
+                </select> <br>
+
+                <label for="telephone">Téléphone:</label>
+                <input type="tel" id="telephone" name="telephone" required><br>
+
+                <label for="checkin">Date d'arrivée:</label>
+                <input type="date" id="checkin" name="checkin" required><br>
+
+                <label for="checkout">Date de départ:</label>
+                <input type="date" id="checkout" name="checkout" required><br>
+
+                <label for="room">Préférences de lit:</label>
+                <select>
+                    <option value="" selected>lit double</option>
+                    <option value="">lit jumeaux</option>
+                    <option value="">lit une place</option>
+                </select> <br>
+
+                <button type="submit">Réserver</button>
+
+            </fieldset>
+        </form>
+    </main>
+    <footer>
+        <p>&copy; 2024 Developpé par TRAORE Arouna. Tous droits réservés.</p>
+    </footer>
+</body>
+
+</html>
